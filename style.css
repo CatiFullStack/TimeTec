@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    color: #41abf5;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    width: 220px;
+}
+
+header {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+
+.img img {
+    width: 400px;
+}
+
+nav {
+    background-color: #000;
+    border: #042987;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+nav ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+nav ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: #042987;
+    color: white;
+    margin-top: 15px;
+    margin-left: -38px;
+}
+
+nav ul li:hover .sub-menu-1 ul {
+    display: block;
+}
+
+nav ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+nav ul li:hover .sub-menu-1 ul li:hover {
+    background-color: #cccc;
+}
+
+
+
+.containerm {
+    display: flex;
+    max-width: 900px;
+    margin-top: 40vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow: auto;
+    padding: 0.2rem;
+    text-align: justify;
+}
+
+.containerm img {
+    width: 100%;
+}
+
+.card h3 {
+    margin-bottom: 2rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: #0429877b;
+    margin-bottom: 2rem;
+}
+
+.card > div {
+    padding: 2rem;
+}
+
+.card:nth-child(even) img {
+    order: 2;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
