@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background: rgb(22, 22, 22);
     color: #41abf5;
 }
 
@@ -19,6 +19,7 @@ body {
 
 .header img {
     width: 220px;
+    border-radius: 200px;
 }
 
 header {
@@ -46,6 +47,7 @@ h1 {
 nav {
     background-color: #000;
     border: #042987;
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -68,6 +70,7 @@ nav ul li a {
 
 .sub-menu-1 {
     display: none;
+    border-radius: 10px;
 }
 
 nav ul li:hover .sub-menu-1 {
